@@ -1,0 +1,66 @@
+.frame {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#heading {
+    font-weight: bolder;
+}
+
+.input-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#name{
+    font-size: 16px;
+    padding: 6px;
+    width: 240px;
+    height: 36px;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+#email {
+    font-size: 16px;
+    padding: 6px;
+    width: 240px;
+    height: 36px;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+#pass {
+    font-size: 16px;
+    padding: 6px;
+    width: 240px;
+    height: 36px;
+    border-radius: 8px;
+    border: 3px solid black;
+
+}
+
+#login-btn {
+    padding: 4px;
+    width: 255px;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: white;
+    background-color: purple;
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+/* #email:hover{
+    border: 1px solid yellowgreen;
+} */
